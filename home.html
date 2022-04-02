@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matthew White Portfolio</title>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+    </head>
+
+    <body>  
+        <div class="navigation-container display-flex" id="sidenav">
+            <a class="sidenav-link" id="s1" href="#panel1">
+                Home
+            </a>
+            <a class="sidenav-link" id="s2" href="#panel2">
+                About me
+            </a>
+            <a class="sidenav-link" id="s3" href="#panel3">
+                Footer
+            </a>
+            <a class="settings-nav sidenav-link" id="settings">
+                Settings
+            </a>
+            <div class="dropdown-content" id="dropdown-content">
+                <div class="sidenav-link">
+                    <div id="colorpicker-wrapper" class="colorpicker-wrapper">
+                        <input type="color" id="colorpicker" value="#000000">
+                    </div>
+                    <p class="colorpicker-text">Settings Colour</p>
+                </div>
+                <div class="sidenav-link">
+                    <div id="bg-colorpicker-wrapper" class="colorpicker-wrapper">
+                        <input type="color" id="bg-colorpicker" value="#0000ff">
+                    </div>
+                    <p class="colorpicker-text">Background Colour</p>
+                </div>
+                <div class="sidenav-link">
+                    <div id="txt-colorpicker-wrapper" class="colorpicker-wrapper">
+                        <input type="color" id="txt-colorpicker" value="#00ff00">
+                    </div>
+                    <p class="colorpicker-text">Text Colour</p>
+                </div>
+                <div class="sidenav-link">
+                    <div id="h-colorpicker-wrapper" class="colorpicker-wrapper">
+                        <input type="color" id="h-colorpicker" value="#ff0000">
+                    </div>
+                    <p class="colorpicker-text">Heading Colour</p>
+                </div>
+                <div class="sidenav-link">
+                    <div id="pg2-colorpicker-wrapper" class="colorpicker-wrapper">
+                        <input type="color" id="pg2-colorpicker" value="#ffffff">
+                    </div>
+                    <p class="colorpicker-text">Page 2 Colour</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="home-container display-flex" id="panel1">
+            <div class="container center">
+                <div class="text-container">
+                    <h1 class="h1">Matthew White</h1>
+                    <p>Interactive Portfolio</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-container display-flex"  id="panel2">
+            <div class="container">
+                <div class="text-container">
+                    <h1 class="h1">Welcome</h1>
+                    <p>This is my portfolio!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-container display-flex"  id="panel3">
+            <div class="container">
+                <div class="text-container">
+                    <p>this is the footer text</p>
+                    <a class="btn btn-primary" href="">Primary button</a>
+                    <a class="btn btn-secondary" href="">Secondary button</a>
+                </div>
+            </div>
+        </section>
+
+        <script src="scroll.js"></script>
+        <script src="colorpicker.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+    </body>
+</html>
